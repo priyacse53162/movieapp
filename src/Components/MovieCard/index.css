@@ -1,0 +1,45 @@
+.moviecard {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  width: 15%;
+  min-height: 28%;
+  margin: 5px;
+  border: 1px solid #c4c4c2;
+  border-radius: 10px;
+}
+.movietitle {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #30302f;
+  margin-top: 5px;
+  margin-bottom: 2px;
+  padding: 0px;
+  text-align: center;
+  font-weight: bold;
+}
+.rating {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #6b6864;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  padding: 0px;
+  text-align: center;
+}
+.ViewDetailsbutton {
+  background-color: #5278f7;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  padding: 7px;
+  cursor: pointer;
+  outline: none;
+}
+.movieimage {
+  width: 90%;
+  height: 100px;
+  border-radius: 10px;
+}

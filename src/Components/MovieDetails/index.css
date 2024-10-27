@@ -1,0 +1,56 @@
+.detailcontainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.topcontainer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #000000;
+  padding-left: 10px;
+  margin: 5px;
+}
+.detailedmovieimage {
+  width: 300px;
+  height: 200px;
+}
+.moviedetails {
+  display: flex;
+  width: 100vw;
+  padding: 10px;
+  align-items: center;
+}
+.movietext {
+  width: 70%;
+  margin-left: 10px;
+}
+.boldertext {
+  font-weight: bold;
+}
+.ratingtext {
+  font-family: 'roboto';
+}
+.cast {
+  align-self: flex-start;
+}
+.bottomcontainer {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.castmembersContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0px;
+}

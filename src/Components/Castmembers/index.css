@@ -1,0 +1,23 @@
+.castcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  width: 15%;
+  margin: 5px;
+  border: 1px solid #c4c4c2;
+  border-radius: 10px;
+}
+.castimage {
+  width: 80%;
+  height: 100px;
+  border-radius: 10px;
+}
+.originalName {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #6b6864;
+  margin-top: 5px;
+  padding: 0px;
+  text-align: center;
+}
